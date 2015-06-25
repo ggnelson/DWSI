@@ -1,0 +1,113 @@
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oswald Regular'), local('Oswald-Regular'), url(http://fonts.gstatic.com/s/oswald/v10/Qw6_9HvXRQGg5mMbFR3Phn-_kf6ByYO6CLYdB4HQE-Y.woff2) format('woff2');
+}
+body {
+background-image: url(../Images/renzler-power-down.gif);
+background-color: #0FE852;
+margin-left: auto;
+margin-right: auto;
+width: 1200px;
+}
+a:link{ 
+color: #BCC128;
+text-decoration: none;
+}
+a:visited{
+color: rgba(178,12,155,1.00);
+text-decoration: underline;
+}
+a:hover{
+color: #FFFFFF;
+text-decoration: line-through;
+}
+a:active{
+color: rgba(228,0,19,1.00);
+text-decoration: none;
+}
+h1{
+font-family:Impact, Haettenschweiler, sans-serif;
+font-style: italic; 
+font-size: 2.25em;
+text-decoration: underline;	
+color: rgba(228,0,19,1.00);
+text-align: center;
+text-shadow: 0.083% 0.083%;
+font-weight: bold;
+line-height: 200%;
+}
+ul{ 
+border: 0.16% solid #242424;
+background: linear-gradient( #000000, #B6B5B5);
+list-style-position: inside;
+list-style-type: square;
+text-decoration: none;
+}
+#menu1, #menu2, #menu3, #menu4, #btm1, #btm2, #btm3{
+display: inline-block;
+margin-right: 15.83%;
+}
+ol{
+color: #FFFFFF;
+border: 0.16% solid #242424;
+background-image: url(../Images/iPad-wallpaper-02.jpg);
+background-size:contain;
+background-attachment:fixed;
+width: 29.16666667%;
+}
+p{
+color:rgba(255,255,255,1.00);
+font-size: 1.125em;
+font-family: Oswald, Georgia, serif;
+text-indent: 1.125em;
+width: 83.3333%;
+margin-right: auto;
+margin-left: auto;
+}
+h2{
+color: rgba(1,218,247,1.00);
+font-style: italic;
+font-size: 1.5em;
+text-decoration: underline;
+text-align: center;
+}
+figure{
+border-radius: 2.0833333%;
+border: 0.33333% solid #242424;
+background-image:url(../Images/LeagueofLegends.jpg);
+background-repeat:no-repeat;
+color: black;
+padding: 2.0833333%;
+box-shadow: 0.416666% 0.416666% 0.208333% #242424;
+width: 41.666666%;
+margin-left: auto;
+margin-right: auto;
+}
+#controller, #psp {
+float: left;
+width: 41.666666%;
+margin: 1.25%;
+}
+#references{
+color:hsla(187,99%,49%,1.00);
+}
+figcaption{
+color:#02FF00;
+}
+#world {
+	background-image:url(../Images/1434688059_browser.png);
+	background-repeat:no-repeat;
+	background-size:contain;
+}
+#benefit {
+	background-image:url(../Images/1434688167_Like.png);
+	background-repeat:no-repeat;
+	background-size:contain;
+}
+#gallery {
+	background-image:url(../Images/1434688133_Android-Gallery.png);
+	background-repeat:no-repeat;
+	background-size:contain;
+}
