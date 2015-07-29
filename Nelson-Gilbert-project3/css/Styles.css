@@ -13,7 +13,7 @@ body {
 }
 /*header*/
 h1 {
-	font-family: 'Oswald',Impact, black-ops-one, clara, Times New Roman;
+	font-family: 'Oswald',Impact, Times New Roman;
 	font-style: oblique;
 	font-size: 4em;
 	color: rgba(2,255,0,1.00);
@@ -103,10 +103,11 @@ aside {
 	margin: 5%;
 	padding: 2%;
 	box-shadow: 1em 1em 1em rgba(124,102,102,1.00);
+	float:left;
+	overflow:auto;
 }
 /*text for under the pictures*/
 figcaption {
-	text-align:center;
 	color: #2A2222;
 }
 /*end of gallery/side part*/
@@ -114,7 +115,8 @@ li {
 	list-style-type:katakana;
 }
 /*beginning of h2 or section titles*/
-#deck, #poker, #hand {
+#poker, #hand {
+	width: 45%;
 	margin-right:5%;
 	margin-left:5%;
 }
@@ -130,6 +132,7 @@ li {
 	margin: 5%;
 	padding: 2%;
 	box-shadow: 1em 1em 1em rgba(124,102,102,1.00);
+	float:left;
 }
 /*clear for links so floats wont merge*/
 footer {
@@ -140,11 +143,7 @@ footer {
 	float:left;
 	width: 40%;
 	margin: 5%;
-}
-.list, aside {
-	display:inline;
-	float:left;
-	margin: 5%;
+	overflow:auto;
 }
 /*Sprites*/
 #what, #gallery {
