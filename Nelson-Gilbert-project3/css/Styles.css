@@ -113,10 +113,12 @@ figcaption {
 li {
 	list-style-type:katakana;
 }
+/*beginning of h2 or section titles*/
 #deck, #poker, #hand {
 	margin-right:5%;
 	margin-left:5%;
 }
+/*borders for list element*/
 .list {
 	border-width: .4em;
 	border-style: solid;
@@ -129,9 +131,11 @@ li {
 	padding: 2%;
 	box-shadow: 1em 1em 1em rgba(124,102,102,1.00);
 }
+/*clear for links so floats wont merge*/
 footer {
 	clear:both;
 }
+/*floats to create 2 column layout*/
 .cards, .quote {
 	float:left;
 	width: 40%;
@@ -142,6 +146,7 @@ footer {
 	float:left;
 	margin: 5%;
 }
+/*Sprites*/
 #what, #gallery {
 	background-image: url(../images/1437717444_games.png);
 	background-repeat:no-repeat;
