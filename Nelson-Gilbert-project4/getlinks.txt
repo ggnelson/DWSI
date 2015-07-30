@@ -1,2 +1,2 @@
-http://ggnelson.github.io/DWSI/Nelson-Gilbert-project4/index.html
+
 https://github.com/ggnelson/DWSI/tree/gh-pages/Nelson-Gilbert-project4
