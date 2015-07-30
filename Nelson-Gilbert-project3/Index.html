@@ -10,13 +10,13 @@
         		<h1> The World of Playing Cards </h1>
                 <!--Beginning of navigation bar-->
         		<nav> 
-        		<ul>
-                <!--split list into seperate IDs for later use-->
-						<li id="menu1"><a href="#what">What are Card Games</a></li>
-                        <li id="menu3"><a href="#gallery">Gallery</a></li>
-                        <li id="menu2"><a href="#games">The Different Types of Games</a></li>
-						<li id="menu4"><a href="#link">Links</a></li>
-                </ul>
+        		  <ul>
+                    <!--split list into seperate IDs for later use-->
+					<li id="menu1"><a href="#what">What are Card Games</a></li>
+                    <li id="menu3"><a href="#gallery">Gallery</a></li>
+                    <li id="menu2"><a href="#games">The Different Types of Games</a></li>
+					<li id="menu4"><a href="#link">Links</a></li>
+                  </ul>
         		</nav>
             <!--end of navigation bar-->     
 </header>
@@ -73,16 +73,82 @@
                         <li>Accumulating</li>
                         <li>Multi-Genre</li>
 				</ol>
-        </div>
+		</div>
 </article>
-        <!--ending of article 2 and main section of the website-->        
+        <!--ending of article 2 and main section of the website--> 
+<article>
+		<!--Chart List of 5 most popular card games-->
+<table>
+			<tr>
+            	<th></th>
+				<th scope="col">Card Game</th>
+				<th scope="col">Country of Origin</th>
+			</tr>
+			<tr>
+				<td>1.</td>
+				<td>Poker</td>
+				<td>USA</td>
+			</tr>
+			<tr class="shade"><!--color section-->
+				<td>2.</td>
+				<td>Texas Hold Em</td>
+				<td>USA</td>
+			</tr>
+			<tr>
+				<td>3.</td>
+				<td>BlackJack(21)</td>
+				<td>Unknown</td>
+			</tr>
+            <tr class="shade">
+            	<td>4.</td>
+                <td>Bridge</td>
+                <td>Russia</td>
+            </tr>
+            <tr>
+            	<td>5.</td>
+                <td>Gin Rummy</td>
+                <td>USA</td>
+            </tr>
+</table>
+</article>       
         <!--bottom link bars-->
-<footer>
+<footer>	
+		<div class="bottom">
         		<h3 id="link">Links</h3>
                 <ul>
 						<li><a href="https://en.wikipedia.org/wiki/Playing_card">What Playing Cards Are</a></li>
 						<li><a href="http://www.wopc.co.uk/history/">History of Card Games</a></li>
 				</ul>
+		</div>   
+      	<form action="http://www.example.com/form.php" method="get">
+			<fieldset>
+				<legend>What is Your Favorite Card Game</legend>
+				<p><label class="title" for="name">Full Name:</label>
+					 <input type="text" name="name" id="name" placeholder="full name" required>
+					 <label class="title" for="email">Email:</label>
+					 <input type="text" name="email" id="email" placeholder="email address" required>
+                </p>
+                <span class="title">Gender</span>
+                <label id="man" for="male">Male</label>
+                <input type="radio" name="sex" id="male" value="male" checked>
+                <label id="woman" for="female">Female</label>
+				<input type="radio" name="sex" id="female" value="female" checked>
+                <p><label for="favorite" class="title">Favorite Card Game:</label>
+					 <select name="favorite" id="favorite">
+						 <option value="Poke">Poker</option>
+						 <option value="TxH">Texas Hold Em</option>
+						 <option value="BJ">BlackJack</option>
+                         <option value="Brdg">Bridge</option>
+                         <option value="Gin">Gin Rummy</option>
+					 </select>
+                </p>
+                <label id="com" for="text">Comment why it is your favorite card game:</label>
+                <textarea rows="10" cols="75" name="text" id="text" class="" placeholder="Enter Comment"></textarea>
+			</fieldset>
+ 	    <div class="submit">
+        <input type="submit" value="Submit" />
+        </div>
+		</form>
 </footer>                
 </body>
 </html>

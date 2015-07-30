@@ -25,9 +25,7 @@ h1 {
 }
 /*Navigation bar*/
 ul {
-	border-width: .25em;
-	border-style: dotted;
-	border-color: #FFFFFF;
+	border: dotted .25em #FFFFFF;
 	border-radius: 2em;
 	background: linear-gradient(to bottom right, #2A2222, #89000B);
 	margin: 3%;
@@ -91,9 +89,7 @@ ol {
 /*end of main article*/
 /*beginning of gallery/ side part of the website*/
 aside {
-	border-width: .4em;
-	border-style: solid;
-	border-color: #901F21;
+	border: solid .4em #901F21;
 	border-radius: 1em;
 	background-image: url(../images/presence-ii.png);
 	background-size:cover;
@@ -122,9 +118,7 @@ li {
 }
 /*borders for list element*/
 .list {
-	border-width: .4em;
-	border-style: solid;
-	border-color: #901F21;
+	border: solid .4em #901F21;
 	border-radius: 1em;
 	background-image: url(../images/gervan.gif);
 	background-attachment:fixed;
@@ -137,6 +131,10 @@ li {
 /*clear for links so floats wont merge*/
 footer {
 	clear:both;
+}
+.bottom {
+	clear:both;
+	margin-top: 5%;
 }
 /*floats to create 2 column layout*/
 .cards, .quote {
@@ -151,4 +149,90 @@ footer {
 	background-repeat:no-repeat;
 	background-size:contain;
 	background-position: 40%;
+}
+table {
+	clear:both;
+	border: solid .4em #901F21;
+	border-radius: 1em;
+	background-color:rgba(255,255,255,1.00);
+	width: 60%;
+	margin-left:auto;
+	margin-right:auto;
+	padding: 3%;
+	box-shadow: 1em 1em 1em rgba(124,102,102,1.00);
+}
+td {
+	color: #000000;
+	font-size: 1.5em;
+	font-family: Oswald, Georgia, serif;
+	text-align:center;
+	margin-right: auto;
+	margin-left: auto;
+	border: .1em solid #000000;
+	border-spacing: 1%;
+	background-color: rgba(228,0,19,.50);
+}
+tr.shade {
+	background-color:#9E000D;
+}
+tr:hover {
+	background-color: #01DAF7;
+}
+th {
+	font-size: 1.75em;
+	text-transform: uppercase;
+}
+form {
+	margin-left: 2%;
+}
+fieldset {
+	width: 25%;
+	margin-top: 5%;;
+	border: .2em solid #000000;
+	background-color: rgba(168,165,165,0.83);
+	line-height: 1.6em;
+}
+legend {
+	font-style: oblique;
+	color: #FFFFFF;
+}
+input[type="text"] {
+	width: 40%;
+	border: .3em solid #000000;
+	padding: .2%;
+}
+input[type="submit"] {
+	border: .2em solid #FFFFFF;
+	background: linear-gradient(#000000,#828282);
+	color: #ffffff;
+	border-radius: .3em;
+	padding: .3em;
+	margin-top: 2em;
+	margin-bottom: 4em;
+}
+input[type="submit"]:hover {
+	background: linear-gradient(#828282,#000000);
+}
+input[type="submit"]:focus {
+	background: linear-gradient(#000000,#828282);
+}
+.title {
+	float: left;
+	width: 54%;
+	clear: left;
+	text-align:left;
+}
+.submit {
+	width: 4%;
+	text-align: left;
+}
+textarea:hover {
+	background-color:rgba(1,218,247,1.00);
+}
+/*different focus for comment box since bigger and different layout*/
+textarea:focus, input[type="text"]:focus {
+	background-color: rgba(240,255,195,0.85);
+}
+input[type="text"]:hover {
+	background-color:rgba(2,255,0,0.70);
 }
