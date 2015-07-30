@@ -169,7 +169,7 @@ td {
 	margin-right: auto;
 	margin-left: auto;
 	border: .1em solid #000000;
-	border-spacing: 1%;
+	border-spacing: 1em;
 	background-color: rgba(228,0,19,.50);
 }
 tr.shade {
