@@ -1,0 +1,183 @@
+/************************ Main Styles ************************/
+/*body*/
+body {
+	width: 100%;
+	margin: 0 auto;
+	font: 16px / 1.5 "Lato", sans-serif;
+	color: #666
+}
+/*sunset grill background*/
+header {
+	border-style: solid;
+	border-color: rgba(0,0,0,0.00);
+	background-image:url(../images/homebackground.jpg);
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-size:cover;
+	background-origin: border-box;
+	height: 754px;
+}
+/*Sunset Grill end*/
+/*Slogan Begin*/
+#slogan { 
+	text-align:center;
+}
+/*Larger slogan*/
+#slogan h2 {
+	width: 800px;
+	font-size: 60px;
+	color: #FFFFFF;
+	margin:auto;
+}
+/*smaller slogan*/
+#slogan p {
+	width: 800px;
+	font-size:34px;
+	color:#FFFFFF;
+	margin: 50px auto 300px auto;
+}
+/*navigation bar*/
+ul {
+	border-top-style:dotted;
+	border-bottom-style:dotted;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align:center;
+}
+li {
+	display:inline-block;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+/*font size*/
+nav a {
+	font-size:18px;
+}
+/*Home button color*/
+#current-page {
+	color:#d93600;
+}
+/*removing text decoration*/
+nav a:link, .read-more { 
+	color:#DDDDDD;
+	text-decoration:none;
+}
+/*hover color for top nav bar*/
+nav a:hover { 
+	color:#d93600;
+	text-decoration:none;
+}
+/*logo*/
+h1 {
+	color:rgba(0,0,0,0.00);
+	background-image: url(../images/logo.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size: 219px 62px;
+	margin-top: 30px;
+	
+}
+/*Slogan End*/
+/*Promo layout*/
+#promo { 
+	width: 1130px;
+	margin: 20px auto 20px auto;
+}
+/*individual promos elements layout and float*/
+.promo-col {
+	float: left;
+    width: 255px;
+	text-align:center;
+	margin-left: 30px;
+	margin-bottom: 30px;
+}
+/*margin for first promo to not move it to far left*/
+#promo-first-col {
+	margin-left:0px;
+}
+/*each back ground image sprite, cannot figure out how to get it above text*/
+#coffee {
+	background-image:url(../images/ico_coffee.png);
+	background-repeat:no-repeat;
+	background-size: contain;
+	margin-top:80px;
+}
+#music {
+	background-image: url(../images/ico_music.png);
+	background-repeat:no-repeat;
+	background-size:contain;
+	margin-top:80px;
+}
+#food {
+	background-image: url(../images/ico_food.png);
+	background-repeat:no-repeat;
+	background-size: contain;
+	margin-top:80px;
+}
+#service {
+	background-image: url(../images/ico_service.png);
+	background-repeat:no-repeat;
+	background-size: contain;
+	margin-top:80px;
+}
+/*Promo end*/
+/*Feature begin*/
+#featured { 
+	clear:both;
+	width: 1130px;
+	text-align:center;
+	margin: 150px auto 50px auto;
+}
+/*featured title*/
+#featured h2 { 
+	color:#868686;
+	font-size:34px;
+}
+/*featured titles for text under pics*/
+#featured h3{
+	color: #d96300;
+}
+/*text alignment and clearing for buttons below it*/
+#featured p{
+	margin-bottom: 30px;
+	text-align:center;
+	clear:both;
+}
+/*overall width of each feature and float*/
+.featured-col { 
+	float:left;
+	width: 350px;
+	margin-left: 40px;
+}
+/*zero margin to keep first feature from going too far left*/
+#featured-first-col {
+	margin-left:0px;
+}
+/*read more button floated right to clear the rest of the text*/
+.read-more {
+	float: right;
+    width: 200px;
+    border:0px solid;
+	padding:10px;
+    margin-right:75px;
+	margin-top:10px;
+	margin-bottom:30px;
+	background-color:#D93600;
+	color:rgba(255,255,255,1.00);
+}
+/*hover for read more button*/
+.read-more:hover {
+	background-color:#999999;
+}
+/*Feature end*/
+/*Foot begin*/
+footer {
+	clear:both; /*clear to fix floats from feature*/
+	text-align:center;
+	font-size:12px;
+	background-color:#111111;
+	padding-bottom: 40px;
+	padding-top: 40px;
+	margin-top:30px;
+}
+/*Footer end*/
